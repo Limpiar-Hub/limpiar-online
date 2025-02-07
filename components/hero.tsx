@@ -23,11 +23,11 @@ export function Hero() {
               Made Simple
             </h1>
             <p className="max-w-[600px] text-primary-foreground md:text-xl">
-              Making a clean and comfortable space shouldn't be stressful to obtain. Book a sustainable cleaning service
+              Making a clean and comfortable space shouldn&apos;t be stressful to obtain. Book a sustainable cleaning service
               whenever, wherever you need it.
             </p>
             <Button size="lg" variant="secondary">
-              Let's Get You Ready
+              Le&apos;t Get You Ready
             </Button>
           </motion.div>
           <motion.div

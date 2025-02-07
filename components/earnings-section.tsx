@@ -18,7 +18,7 @@ export function EarningsSection() {
             <h2 className="text-3xl font-bold tracking-tighter">More Jobs Equals More Earnings</h2>
             <p className="text-muted-foreground">
               Want to earn more as a cleaning professional? Join our platform and get access to more clients. Our
-              cleaners get paid more because we cut out the middleman. You're in control of your schedule and earnings.
+              cleaners get paid more because we cut out the middleman. You&apos;re in control of your schedule and earnings.
             </p>
             <Button size="lg">Become a Limpiador</Button>
           </motion.div>

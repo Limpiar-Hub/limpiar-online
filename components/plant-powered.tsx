@@ -30,7 +30,7 @@ export function PlantPowered() {
           >
             <h2 className="text-3xl font-bold tracking-tighter">Plant-Powered Cleaners</h2>
             <p className="text-muted-foreground">
-              We believe in cleaning that's safe for your home and the environment. Our plant-based cleaning products
+              We believe in cleaning that&apos;s safe for your home and the environment. Our plant-based cleaning products
               are powerful on dirt but gentle on the planet. Experience the natural difference.
             </p>
             <Button size="lg">Shop Our Products</Button>
