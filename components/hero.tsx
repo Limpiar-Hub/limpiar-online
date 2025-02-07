@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   return (
-    <section className="bg-primary">
-      <div className="container px-4 py-16 md:py-24">
+    <section className="relative overflow-hidden bg-primary py-16 md:py-24">
+      <div className="container px-4">
         <div className="grid gap-8 md:grid-cols-2 md:gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -34,14 +34,13 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="relative"
+            className="relative aspect-[4/3] md:aspect-[3/4]"
           >
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-limpiar-online-2025-02-07-15_29_23-ysh0SGqMgOqiHRA0CLkA8pegLqlMk6.png"
+              src="/hero.png"
               alt="Professional cleaner at work"
-              width={600}
-              height={400}
-              className="rounded-lg shadow-lg"
+              fill
+              className="object-cover rounded-lg"
               priority
             />
           </motion.div>

@@ -47,7 +47,7 @@ export function AppDownload() {
           {/* Book a Cleaning App */}
           <motion.div variants={item} className="text-center space-y-6">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WrexMmeVkgecWjXMMkVhXNccx2gnE8.png"
+              src="/limpiador.svg"
               alt="Book a Cleaning App Icon"
               width={100}
               height={100}
@@ -79,13 +79,13 @@ export function AppDownload() {
           {/* Become a Limpiador App */}
           <motion.div variants={item} className="text-center space-y-6">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WrexMmeVkgecWjXMMkVhXNccx2gnE8.png"
-              alt="Become a Limpiador App Icon"
+              src="/limpiador.svg"
+              alt="Book a Cleaning App Icon"
               width={100}
               height={100}
               className="mx-auto"
             />
-            <h3 className="text-2xl font-bold text-primary">Become a Limpiador</h3>
+            <h3 className="text-2xl font-bold text-primary">Book a Cleaning</h3>
             <div className="flex justify-center gap-4">
               <a href="#" className="transition-transform hover:scale-105">
                 <Image

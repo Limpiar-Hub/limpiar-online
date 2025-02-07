@@ -30,7 +30,7 @@ export function EarningsSection() {
           >
             <div className="aspect-square relative overflow-hidden rounded-full">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-limpiar-online-2025-02-07-15_29_23-ysh0SGqMgOqiHRA0CLkA8pegLqlMk6.png"
+                src="/earning.png"
                 alt="Cleaning professionals at work"
                 fill
                 className="object-cover"

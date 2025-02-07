@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image" 
+import Image from "next/image" // Correct import for Next.js Image component
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -11,7 +11,7 @@ export function ContactForm() {
     <section className="relative py-16 md:py-24">
       <div className="absolute inset-0 bg-gray-900/90">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-limpiar-online-2025-02-07-15_29_23-ysh0SGqMgOqiHRA0CLkA8pegLqlMk6.png"
+          src="/logo.png"
           alt="Background"
           layout="fill"
           objectFit="cover"

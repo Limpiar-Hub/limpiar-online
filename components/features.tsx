@@ -83,7 +83,7 @@ export function Features() {
           <motion.div variants={item} className="relative hidden lg:block">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/0 rounded-2xl" />
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-limpiar-online-2025-02-07-15_29_23-53YuMvMHaTNst2AnYPaNOeYTaLh8Iw.png"
+              src="/logo.png"
               alt="Professional cleaning service"
               width={600}
               height={800}

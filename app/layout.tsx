@@ -1,10 +1,12 @@
 import { GeistSans } from "geist/font/sans"
 import { Analytics } from "@vercel/analytics/react"
-import type React from "react" // Added import for React
+import type React from "react" // Import React
 
 import { cn } from "@/lib/utils"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+
+import "@/styles/globals.css"
 
 export const metadata = {
   title: "Limpiar - Sustainable Cleaning Made Simple",
@@ -28,3 +30,6 @@ export default function RootLayout({
   )
 }
 
+
+
+import './globals.css'

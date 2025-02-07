@@ -24,13 +24,14 @@ export function Navbar() {
     >
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2">
-          <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-limpiar-online-2025-02-07-15_29_23-53YuMvMHaTNst2AnYPaNOeYTaLh8Iw.png"
-            alt="Limpiar Logo"
-            width={32}
-            height={32}
-            className="h-8 w-8"
-          />
+          <div className="relative h-8 w-8">
+            <Image
+              src="/logo.png"
+              alt="Limpiar Logo"
+              fill
+              className="object-contain"
+            />
+          </div>
           <span className="hidden font-bold sm:inline-block">Limpiar</span>
         </Link>
         <div className="hidden md:flex md:space-x-6">
@@ -55,6 +56,7 @@ export function Navbar() {
             <SheetTrigger asChild>
               <Button variant="ghost" className="md:hidden" size="icon">
                 <Menu className="h-5 w-5" />
+                <span className="sr-only">Toggle menu</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="right">

@@ -31,7 +31,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-limpiar-online-2025-02-07-15_29_23-53YuMvMHaTNst2AnYPaNOeYTaLh8Iw.png"
+                src="/logo.png"
                 alt="Limpiar Logo"
                 width={32}
                 height={32}

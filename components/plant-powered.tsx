@@ -16,7 +16,7 @@ export function PlantPowered() {
             className="relative h-[300px] md:h-[400px]"
           >
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-limpiar-online-2025-02-07-15_29_23-ysh0SGqMgOqiHRA0CLkA8pegLqlMk6.png"
+              src="/plant.png"
               alt="Eco-friendly cleaning supplies"
               fill
               className="object-cover rounded-lg"
@@ -40,5 +40,4 @@ export function PlantPowered() {
     </section>
   )
 }
-
 

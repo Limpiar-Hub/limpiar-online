@@ -16,7 +16,7 @@ export function CleanerSection() {
             className="relative h-[300px] md:h-[400px]"
           >
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-limpiar-online-2025-02-07-15_29_23-ysh0SGqMgOqiHRA0CLkA8pegLqlMk6.png"
+              src="/connected-image.png"
               alt="Team of professional cleaners"
               fill
               className="object-cover rounded-lg"
